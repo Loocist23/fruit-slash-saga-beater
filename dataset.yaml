@@ -1,0 +1,9 @@
+# dataset.yaml
+train: D:\Dev\fruit-slash-saga-beater\dataset\images\train
+val: D:\Dev\fruit-slash-saga-beater\dataset\images\val
+
+# Nombre de classes
+nc: 2
+
+# Noms des classes (ordonnés de 0 à nc-1)
+names: ['fruit', 'bomb']
