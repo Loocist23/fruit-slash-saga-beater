@@ -11,7 +11,7 @@ import math
 # -------------------------------
 GAME_REGION = (557, 271, 803, 603)  # Zone de la fenêtre de jeu (à ajuster)
 # Charger le modèle entraîné (modifiez le chemin vers votre modèle)
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='runs/train/exp2/weights/best.pt', force_reload=True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='runs/train/exp/weights/best.pt', force_reload=True)
 
 # Couleurs pour l'affichage (BGR)
 colors = {

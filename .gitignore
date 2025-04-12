@@ -1,3 +1,8 @@
 env/
 __pycache__/
 *.pyc
+annotations/
+augmented_dataset/
+dataset/
+runs/
+yolov5s.pt
